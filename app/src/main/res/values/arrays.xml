@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="itemOperation">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+
+</resources>

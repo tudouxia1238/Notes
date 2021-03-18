@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:background="@drawable/b"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bottom_item">
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/navigationbar_backup"
+            android:onClick="onBack" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/bt_back"
+            android:gravity="center_vertical"
+            android:text="关于"
+            android:textColor="#C4CDD1"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/shezhi"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="111dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/tv_title"
+            android:background="@drawable/setting"
+            android:onClick="sheZhi"
+            android:textColor="#437E96" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="记录生活，留下回忆"
+            android:textColor="#292828"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="帮助我们珍藏哪些回忆，岁月流逝，当我们翻开日记的时候，往日就会重视。那些美好的事物与岁月总是能让我们欣然一笑。那些不开心的也可以重新品味"
+            android:textColor="#D2434343"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="自我反省与提高"
+            android:textColor="#3A3939"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="也许日后翻阅以前的日记，我们会觉得当初的做法不是最好的解决方法，事情可以换一个角度去思考，或许会有更好的效果，让我们学会自我反省，而且不断的完善子自我个方面的不足之处"
+            android:textColor="#494848"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
